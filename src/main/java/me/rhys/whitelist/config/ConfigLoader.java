@@ -13,7 +13,7 @@ public class ConfigLoader {
         this.configFile.writeDefaults();
 
         Plugin.getInstance().getConfigValues().getBypassList().addAll(this.configFile.getFileConfiguration()
-                .getStringList("Bypass"));
+                .getStringList("Plugin.Bypass"));
 
         Plugin.getInstance().getConfigValues().setDiscordBotToken(this.configFile.getFileConfiguration()
                 .getString("Discord.Token"));
