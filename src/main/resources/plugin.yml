@@ -1,0 +1,6 @@
+name: WhitelistManager
+main: me.rhys.whitelist.Plugin
+version: 1.0
+author: Rhys
+description: Useful for allowing test sessions on a test server
+website: https://sparky.ac
