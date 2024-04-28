@@ -48,7 +48,7 @@ public class ConfigFile {
 
         if (!this.fileConfiguration.contains("Plugin.Messages.Welcome")) {
             this.fileConfiguration.set("Plugin.Messages.Welcome", "&aWelcome to the test server, " +
-                    "your session will expire in %MAX_MINUTES% and %MAX_SECONDS% seconds!");
+                    "your session will expire in %MAX_MINUTES% minutes and %MAX_SECONDS% seconds!");
         }
 
         if (!this.fileConfiguration.contains("Plugin.Messages.Kick")) {
